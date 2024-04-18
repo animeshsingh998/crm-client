@@ -1,0 +1,83 @@
+.productDetails{
+    width: 80%;
+    height: 100vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 50px;
+    background-color: var(--primary-col-four);
+}
+
+.yolo{
+    height: 100%;
+}
+
+.webVis{
+    border: 1px solid var(--primary-col-one);
+    font-size: 1.3rem;
+}
+.bootns{
+    display: flex;
+    gap: 15px;
+}
+
+.pdLeft{
+    flex: 1;
+    text-align: center;
+}
+
+.pdRight{
+    flex: 1;
+    display: flex;
+    height: max-content;
+    gap: 25px;
+    text-align: justify;
+    flex-direction: column;
+    background-color: var(--primary-col-four);
+    padding: 30px 50px;
+    font-family: var(--montserrat)
+}
+
+.pdRight h1{
+    font-size: 2.5rem;
+}
+.pdRight h2{
+    font-size: 1.8rem;
+}
+
+.pdRight h3{
+    font-size: 1.5rem;
+}
+
+.addCartBtn{
+    width: 30%;
+    text-align: center;
+}
+
+.quantityBox{
+    display: flex;
+}
+
+.quantityBox button{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: var(--primary-col-two);
+    border: none;
+    border-radius: 5px;
+}
+
+.quantityBox input{
+    background-color: white;
+    text-align: center;
+    width: 15%;
+}
+
+.comBtn{
+    margin: 0px;
+}
+
+.comBtn:hover{
+    opacity: 0.8;
+}

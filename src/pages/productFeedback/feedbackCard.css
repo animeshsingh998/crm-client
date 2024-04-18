@@ -1,0 +1,39 @@
+.feedCardData {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+.eeeee{
+    flex-direction: row;
+    gap: 10px;
+}
+
+.feedCardData h1 {
+    font-size: 1.5rem;
+}
+
+.feedCardData h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.feedbackCard{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-col-three);
+    padding: 15px 30px;
+    border-radius: 10px;
+    gap: 10px;
+    text-align: justify;
+}
+
+.feedbackInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedFix{
+    margin-top: -50px;
+}

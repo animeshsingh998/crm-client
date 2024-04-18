@@ -1,0 +1,17 @@
+.allUsersPage {
+    width: 70%;
+    height: 100vh;
+    margin-inline: auto;
+}
+
+.allUsersPage h1 {
+    margin: 20px 0;
+    font-family: var(--montserrat);
+    font-size: 2.5rem;
+}
+
+.allUsersContainer{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 15px;
+}
